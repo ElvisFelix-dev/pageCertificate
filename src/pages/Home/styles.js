@@ -34,4 +34,23 @@ export const CertificatePreview = styled(Page).attrs(() => ({
   .react-pdf__Page__annotations.annotationLayer {
     display: none;
   }
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  @media screen and (max-width: 768px) {
+    canvas {
+      background: rgb(19, 74, 209);
+      background: linear-gradient(
+        90deg,
+        rgba(19, 74, 209, 0.7203256302521008) 41%,
+        rgba(43, 43, 162, 0.7791491596638656) 45%,
+        rgba(50, 109, 190, 0.8547794117647058) 49%
+      );
+      max-width: 100vw;
+      max-height: 100vh;
+    }
+  }
 `
