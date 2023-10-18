@@ -14,6 +14,7 @@ import certificado2 from '../../assets/discover_02.pdf'
 import certificado3 from '../../assets/go_stack.pdf'
 import certificado4 from '../../assets/ignite_reactjs.pdf'
 import certificado5 from '../../assets/danki-code.pdf'
+import certificado6 from '../../assets/certificate.pdf'
 
 // eslint-disable-next-line no-undef
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`
@@ -26,6 +27,7 @@ export function Home() {
     { title: 'Certificado 3', url: certificado3, show: true },
     { title: 'Certificado 4', url: certificado4, show: true },
     { title: 'Certificado 5', url: certificado5, show: true },
+    { title: 'Certificado 6', url: certificado5, show: true },
   ]
 
   function onDocumentLoadSuccess({ numPages }) {
