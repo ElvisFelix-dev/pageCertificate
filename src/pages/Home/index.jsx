@@ -27,7 +27,7 @@ export function Home() {
     { title: 'Certificado 3', url: certificado3, show: true },
     { title: 'Certificado 4', url: certificado4, show: true },
     { title: 'Certificado 5', url: certificado5, show: true },
-    { title: 'Certificado 6', url: certificado5, show: true },
+    { title: 'Certificado 6', url: certificado6, show: true },
   ]
 
   function onDocumentLoadSuccess({ numPages }) {
